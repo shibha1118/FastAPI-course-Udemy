@@ -1,0 +1,7 @@
+days = input('no of days till your bday? :')
+print(type(days))
+days = int(days)
+print(type(days))
+print('no of weeks till your bday is :', days/7)
+weeks = round(days/7, 1)
+print(weeks)
