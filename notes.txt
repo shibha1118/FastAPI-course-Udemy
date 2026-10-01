@@ -1,0 +1,17 @@
+string formatting
+
+# by .format() method :
+
+first_name = "Eric"
+last_name = "Roby"
+sentence = "Hi {} {}"
+print(sentence.format(first_name, last_name)) 
+
+# by f-strings (Formatted String Literals)
+
+
+first_name = "Eric"
+last_name = "Roby"
+print(f"Hi {first_name} {last_name} I hope you are learning")
+
+
